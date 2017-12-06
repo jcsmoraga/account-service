@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: account-service
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
